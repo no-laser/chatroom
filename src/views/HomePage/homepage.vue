@@ -37,6 +37,7 @@ import SearchBox from '@/components/searchbox.vue'
   .left {
     width: 80px;
     height: 100%;
+    border-right: 1px solid rgba(255, 255, 255, 0.5);
     .avatorbox {
       width: 100%;
       display: flex;
