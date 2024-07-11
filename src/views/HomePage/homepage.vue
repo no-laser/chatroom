@@ -1,11 +1,13 @@
 <template>
-  <div class="mainbox">
-    <router-view></router-view>
+  <div class="chat-room-box">
+    
   </div>
 </template>
 
 <script setup>
+
 </script>
 
 <style lang="scss" scoped>
+
 </style>

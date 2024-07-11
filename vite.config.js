@@ -8,8 +8,13 @@ export default defineConfig({
   server: {
     host: '0.0.0.0',
     open: true
+  },
+  // 配置@符号
+  resolve: {
+    alias: {
+      '@': '/src'
+    }
   }
-
 
 
 })
