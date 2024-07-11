@@ -1,5 +1,7 @@
 <template>
-  <div>消息</div>
+  <div class="usermessage">
+    <div></div>
+  </div>
 </template>
 
 <script setup>
