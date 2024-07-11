@@ -16,7 +16,8 @@ body {
   width: 80vw;
   height: 80vh;
   margin: 10vh auto;
-  background-color: rgba(0, 0, 0, 0.504);
+  background-color: rgba(0, 0, 0, 0.605);
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.3);
   backdrop-filter: blur(10px);
+  color: #fff;
 }
