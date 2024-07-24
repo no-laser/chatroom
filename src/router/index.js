@@ -11,7 +11,14 @@ const router = createRouter({
                 {
                     path: '/usermessage',
                     name: '用户消息',
-                    component: () => import('@/views/UserMessage/index.vue')
+                    component: () => import('@/views/UserMessage/index.vue'),
+                    children: [
+                        {
+                            path: '/usermessage/id',
+                            name: '聊天室',
+                            component: () => import('@/views/MessageBox/index.vue')
+                        }
+                    ]
                 },
                 {
                     path: '/userlist',

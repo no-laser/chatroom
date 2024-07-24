@@ -22,7 +22,7 @@ const search = ref("");
 
 <style lang="scss" scoped>
 .searchbox {
-  width: 100%;
+  width: 300px;
   height: 60px;
   display: flex;
   justify-content: center;

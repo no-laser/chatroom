@@ -8,24 +8,22 @@
       </div>
       <div class="navbox">
         <router-link to="/usermessage" class="routerlink" exact active-class="active">
-          <el-icon size="30"><Comment /></el-icon>
+          <el-icon size="30"><Message /></el-icon>
         </router-link>
         <router-link to="/userlist" class="routerlink" exact active-class="active">
-          <el-icon size="30"><UserFilled /></el-icon>
+          <el-icon size="30"><User /></el-icon>
         </router-link>
 
       </div>
     </div>
-    <div class="center">
-      <SearchBox></SearchBox>
+    <div class="right">
+      <!-- <SearchBox></SearchBox> -->
       <router-view></router-view>
     </div>
-    <div class="right">right</div>
   </div>
 </template>
 
 <script setup>
-import SearchBox from '@/components/searchbox.vue'
 </script>
 
 <style lang="scss" scoped>
@@ -76,14 +74,10 @@ import SearchBox from '@/components/searchbox.vue'
       }
     }
   }
-  .center {
-    width: 300px;
-    height: 100%;
-  }
   .right {
-    flex: 1;
     height: 100%;
-    background-color: #323289;
+    border-right: 1px solid rgba(0,0,0,0.5);
+    flex: 1;
   }
 }
 </style>
